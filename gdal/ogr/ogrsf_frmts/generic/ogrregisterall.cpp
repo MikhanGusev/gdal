@@ -269,6 +269,9 @@ void OGRRegisterAllInternal()
 #ifdef AMIGOCLOUD_ENABLED
     RegisterOGRAmigoCloud();
 #endif
+#ifdef NGW_ENABLED
+    RegisterOGRNGW();
+#endif
 #ifdef SXF_ENABLED
     RegisterOGRSXF();
 #endif

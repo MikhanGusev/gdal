@@ -435,6 +435,7 @@ void CPL_DLL RegisterOGRGeoPackage();
 void CPL_DLL RegisterOGRWalk();
 void CPL_DLL RegisterOGRCarto();
 void CPL_DLL RegisterOGRAmigoCloud();
+void CPL_DLL RegisterOGRNGW();
 void CPL_DLL RegisterOGRSXF();
 void CPL_DLL RegisterOGROpenFileGDB();
 void CPL_DLL RegisterOGRSelafin();

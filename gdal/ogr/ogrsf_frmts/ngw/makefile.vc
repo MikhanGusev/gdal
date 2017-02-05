@@ -1,0 +1,16 @@
+
+OBJ	=	ngwworker.obj ngwworker30.obj ogrngwdriver.obj ogrngwdatasource.obj ogrngwlayer.obj
+
+EXTRAFLAGS =	-I.. -I..\.. -I..\geojson -I..\geojson\libjson
+
+GDAL_ROOT	=	..\..\..
+
+!INCLUDE $(GDAL_ROOT)\nmake.opt
+
+default:	$(OBJ)
+
+clean:
+	-del *.obj *.pdb
+
+
+
